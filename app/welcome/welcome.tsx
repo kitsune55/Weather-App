@@ -1,5 +1,5 @@
-import MainPage from "~/components/main-page/MainPage";
-import Navbar from "~/components/nav-bar/Navbar";
+import MainPage from "@components/main-page/MainPage";
+import Navbar from "@components/nav-bar/Navbar";
 
 
 export function Welcome() {

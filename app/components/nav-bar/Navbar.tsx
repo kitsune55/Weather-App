@@ -4,10 +4,10 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline"
 
 export default function Navbar () {
     return (
-        <nav className="w-full h-20 flex justify-between items-center px-2 sm:px-8">
+        <nav className="w-full h-20 flex flex-col sm:flex-row justify-between items-center px-2 sm:px-8">
             {/* icon */}
             <div className="flex justify-center items-center text-l gap-x-3">
-            <SunIcon className="size-16 text-yellow-600" />
+            <SunIcon className="size-16 text-yellow-600 mb-4 sm:mb-0 " />
             <p>Weather Now</p>
             </div>
 
